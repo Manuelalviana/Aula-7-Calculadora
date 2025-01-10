@@ -11,3 +11,9 @@ function sub() {
       Number(document.getElementById("secondNo").value);
   document.getElementById("result").innerText = "Resultado da Subtração: " + result;
 }
+function mult() {
+  var result = 
+      Number(document.getElementById("firstNo").value) *
+      Number(document.getElementById("secondNo").value);
+  document.getElementById("result").innerText = "Resultado da Subtração: " + result;
+}
